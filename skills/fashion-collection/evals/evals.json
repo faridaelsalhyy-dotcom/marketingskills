@@ -1,0 +1,45 @@
+{
+  "skill_name": "fashion-collection",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm a fashion student and need a concept for my 8-look graduate collection inspired by my grandmother's village in Upper Egypt.",
+      "expected_output": "Deepens the inspiration into a specific, visual, generative concept statement using the formula, suggests a collection name, keywords and anti-keywords, then outlines mood, color story with roles and proportions, fabric story, silhouette story, and signature details, and describes how to develop and edit toward 8 cohesive looks with a line-up and running order. Respects the cultural source rather than treating it as costume.",
+      "assertions": [
+        "Writes a concept statement following the inspiration + point of view + design language + customer structure",
+        "Provides a color story with roles and approximate proportions",
+        "Provides fabric and silhouette stories",
+        "Defines signature details repeated across looks",
+        "Addresses cohesion and line-up running order for 8 looks",
+        "Handles the cultural source respectfully, avoiding costume-like literal copying"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My collection feels random and doesn't hang together. Here are my 12 pieces: [list of pieces with different colors and fabrics]. How do I fix it?",
+      "expected_output": "Applies the cohesion scorecard across concept, color, fabric, silhouette, details, styling, brand DNA, and rhythm, identifies orphan colors/fabrics/looks, recommends specific fixes (repeat fabrics in 2+ styles, repeat signature details in 3+ pieces, consolidate palette, reorder line-up), and suggests what to cut.",
+      "assertions": [
+        "Uses a structured cohesion check across multiple threads",
+        "Identifies orphan colors, fabrics, or looks",
+        "Recommends repeating fabrics and details across styles",
+        "Recommends editing or cutting pieces",
+        "Addresses line-up order/rhythm"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Plan a 20-style range for my contemporary womenswear brand's first season.",
+      "expected_output": "Builds a range plan matrix with style roles (hero/key/core), category mix, price tiers, fabric reuse, colorways, and deliveries; checks balance against rules of thumb; checks outfit-building (tops to bottoms pairing); and links to tech packs and market research for costing.",
+      "assertions": [
+        "Splits styles into hero, key, and core roles with shares",
+        "Balances categories and price tiers",
+        "Reuses fabrics across multiple styles",
+        "Checks that tops and bottoms pair into outfits",
+        "Includes delivery/drop planning or a critical path"
+      ],
+      "files": []
+    }
+  ]
+}

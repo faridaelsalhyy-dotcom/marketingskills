@@ -1,0 +1,43 @@
+{
+  "skill_name": "fashion-styling",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I have olive skin, dark brown hair, and dark brown eyes. Gold jewelry looks better on me. What colors should I wear?",
+      "expected_output": "Analyzes across all three color dimensions (temperature, value, chroma) plus contrast rather than temperature alone. Notes the gold-jewelry signal suggests warm or neutral-warm, cross-checked with other tests, and recommends a drape test in daylight to confirm. Suggests a likely direction (e.g., Deep/Warm Autumn range) with example neutrals, signature colors, and colors to keep away from the face, framed as a starting point rather than a rule.",
+      "assertions": [
+        "Covers temperature, value, and chroma, not only warm vs cool",
+        "Recommends cross-checking with more than one undertone test, ideally a daylight drape test",
+        "Provides specific neutrals and accent colors",
+        "Treats seasonal labels as guidance, not a rigid rule"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I'm 5'1\" and want my legs to look longer. I love wide-leg trousers. How should I style them?",
+      "expected_output": "Keeps the wide-leg trousers the client loves and styles for leg length using proportion principles: high rise, tucked or cropped top for a 1/3:2/3 split, hem that grazes the floor over a heel/platform or pointed toe, monochrome or tonal column, shoe matched to trouser, vertical lines, and scaled accessories. Uses neutral, non-judgemental language.",
+      "assertions": [
+        "Does not tell the client to abandon wide-leg trousers",
+        "Applies the rule of thirds / high-rise with tucked or cropped top",
+        "Addresses hem length and shoe choice",
+        "Mentions monochrome, tonal, or vertical-line techniques",
+        "Uses neutral language about the body"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Style a 6-look e-commerce lookbook for our spring linen collection in sand, olive, and terracotta.",
+      "expected_output": "Builds a cohesive color story using the given palette with a 60-30-10 or neutral-plus-accent logic, shows complete outfits that cross-sell, varies silhouettes for volume balance, recommends diverse models and checks colors against different skin tones, and gives consistent styling language (shoes, accessories, hair) across all six looks.",
+      "assertions": [
+        "Each of the 6 looks lists specific pieces and colors",
+        "Applies a color harmony proportion rule",
+        "Balances volume across looks",
+        "Recommends model diversity",
+        "Keeps a consistent styling language across the lookbook"
+      ],
+      "files": []
+    }
+  ]
+}
