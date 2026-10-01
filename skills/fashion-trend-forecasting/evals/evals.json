@@ -1,0 +1,42 @@
+{
+  "skill_name": "fashion-trend-forecasting",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I saw a viral TikTok trend of people wearing oversized bows on everything. Should my mid-price womenswear brand (customers 28-45) put bows across our next collection?",
+      "expected_output": "Places the bow trend on the lifecycle curve and in the macro/meso/micro layers before answering. Asks for or checks evidence beyond one platform (runway, search, retail assortment, own sales). Scores it against customer fit for a 28-45 mid-price customer and brand positioning (leader vs follower). Recommends an intensity level and range share (e.g., a small directional/accessory test) with scale-up and pull-back signals rather than a yes/no.",
+      "assertions": [
+        "Distinguishes a micro trend from a meso/macro trend and asks what deeper driver it expresses",
+        "Requires evidence from at least three independent source types rather than accepting one viral platform",
+        "Identifies the lifecycle stage and warns about entering at peak",
+        "Recommends a specific intensity and share of range, not an all-or-nothing answer",
+        "Defines a scale-up or kill signal to monitor"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Write a SS27 trend report for a contemporary menswear brand.",
+      "expected_output": "Establishes horizon, customer, and positioning (or states assumptions), then follows the trend-report template: executive summary, macro drivers, 3-6 themes each with narrative, evidence, color, materials, silhouette, details, key items, and commercial translation, a validation scorecard, watch list, declining trends, and dated sources. Avoids false precision and invented statistics.",
+      "assertions": [
+        "Includes macro drivers linked to each theme",
+        "Each theme covers color, material, silhouette, details, and key items",
+        "Each theme includes commercial translation (intensity, share of range, delivery)",
+        "Includes a watch list and declining/out trends",
+        "Does not present invented numbers as fact; flags data to be verified with sources and dates"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "How do I know if quiet luxury is over?",
+      "expected_output": "Explains how to read momentum by slope rather than level: search trend direction, social velocity, retail new-in counts versus markdown depth, resale prices, and 'is it over' discourse. Distinguishes the aesthetic expression from the underlying macro driver (economic caution, investment buying), which may persist even as the label fades. Gives decline signals and a recommendation framed by the brand's positioning.",
+      "assertions": [
+        "Uses multiple momentum indicators including markdown depth or retail assortment",
+        "Separates the named aesthetic from its underlying macro driver",
+        "Frames the answer by the user's positioning and customer rather than a universal verdict"
+      ],
+      "files": []
+    }
+  ]
+}

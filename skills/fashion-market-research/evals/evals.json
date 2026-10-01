@@ -1,0 +1,42 @@
+{
+  "skill_name": "fashion-market-research",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to launch a sustainable linen womenswear label online. Is there a market, and who are my competitors?",
+      "expected_output": "Establishes market level, geography, and channel first. Recommends bottom-up sizing over headline global numbers, defines direct, indirect (resale, rental, luxury entry), and aspirational competitors, and lays out a comp-shop plan with price architecture, fabric, size range, newness, markdown, and review mining. Ends with how the research will inform price architecture, positioning, and white space validation.",
+      "assertions": [
+        "Asks for or sets market level and geography before comparing competitors",
+        "Recommends bottom-up sizing rather than relying on a global apparel figure",
+        "Includes indirect competitors such as resale or rental",
+        "Provides a structured comp-shop plan including price architecture and review mining",
+        "Cautions that white space must be validated with customer demand"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My factory quoted $22 landed cost for a dress. What should I charge?",
+      "expected_output": "Explains price-first thinking: set retail from customer and competitor research, then check margin. Shows DTC (roughly 3-5x) and wholesale (landed to wholesale ~2-2.5x, retailer ~2-2.8x) chains with worked numbers, warns to keep MSRP identical across channels, and walks through contribution margin including returns, discounts, fulfillment, and acquisition costs.",
+      "assertions": [
+        "Shows both DTC and wholesale pricing math with the $22 figure",
+        "Recommends checking the price against competitors and customer rather than cost-plus only",
+        "Includes returns, discounts, fulfillment, or CAC in a contribution margin check",
+        "Mentions keeping MSRP consistent across channels if selling wholesale"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Build a positioning map for mid-market modest fashion brands in the UK.",
+      "expected_output": "Picks two customer-relevant axes (validated, not arbitrary), lists competitors at the same market level with evidence for each score, identifies white space and states the evidence needed to confirm demand, and notes where data must be verified. Avoids fabricating specific competitor facts presented as certain.",
+      "assertions": [
+        "Explains why the chosen axes matter to the customer",
+        "Scores competitors with evidence or marks data to verify",
+        "Identifies white space and how to validate it",
+        "Does not present unverified competitor facts as certain"
+      ],
+      "files": []
+    }
+  ]
+}

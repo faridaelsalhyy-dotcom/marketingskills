@@ -24,6 +24,10 @@ Current versions of all skills. Agents can compare against local versions to che
 | directory-submissions | 2.0.0 | 2026-05-05 |
 | emails | 2.0.0 | 2026-05-05 |
 | events | 1.0.0 | 2026-08-23 |
+| fashion-collection | 1.0.0 | 2026-09-28 |
+| fashion-market-research | 1.0.0 | 2026-09-28 |
+| fashion-styling | 1.0.0 | 2026-09-28 |
+| fashion-trend-forecasting | 1.0.0 | 2026-09-28 |
 | free-tools | 2.0.1 | 2026-08-23 |
 | image | 2.0.1 | 2026-05-18 |
 | influencer-marketing | 1.1.0 | 2026-08-19 |
@@ -53,9 +57,20 @@ Current versions of all skills. Agents can compare against local versions to che
 | site-architecture | 2.0.0 | 2026-05-05 |
 | sms | 1.0.0 | 2026-05-21 |
 | social | 2.2.0 | 2026-07-09 |
+| tech-pack | 1.0.0 | 2026-09-28 |
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.12.0 (2026-09-28)
+
+- Added five **fashion design** skills (all 1.0.0) covering the designer's workflow from forecast to factory:
+  - **`fashion-trend-forecasting`** — macro / meso / micro trend layers, the trend lifecycle and 20–30 year revival cycle, a scan → cluster → validate → translate → track process (a trend counts only when 3+ independent source types show it), quantitative momentum reading (slope not level: search, social velocity, resale, retail new-in vs markdown), color forecasting by role, and a weighted validation scorecard. References: `signal-sources.md`, `trend-report-template.md`.
+  - **`fashion-styling`** — color science (hue/value/chroma, undertone tests and the drape protocol, 12-season analysis, harmony schemes, 60-30-10, contrast matching, culture-dependent color meaning) and proportion (line direction, rule of thirds, volume balance, body-balance shorthand with neutral language, scale, fit), plus capsule and brand-lookbook styling. References: `color-science.md` (incl. ΔE, metamerism, light-box approval), `proportion-and-silhouette.md`.
+  - **`fashion-market-research`** — market-level ladder, bottom-up TAM/SAM/SOM, direct/indirect/aspirational competitor rings, the comp shop, price architecture, positioning maps with validated white space, review mining, and fashion metrics (IMU, sell-through, returns, GMROI). References: `comp-shop-template.md`, `pricing-and-margin.md` (landed cost, DTC and wholesale chains, contribution margin, target costing, open-to-buy).
+  - **`tech-pack`** — the 13-section tech pack (flats, BOM, colorways, POM spec with tolerances and half/full notation, grading by POM, ISO stitch types and SPI, artwork, label compliance, packaging, fit comments and revision log), sample stages proto → TOP, and a pre-send checklist. References: `tech-pack-template.md`, `points-of-measure.md` (POM library for tops, bottoms, skirts, dresses, outerwear + grading starting points).
+  - **`fashion-collection`** — research → concept statement formula → mood/color/fabric/silhouette/detail stories → design development → range plan (hero/key/core) → cohesion scorecard ("collection collective": concept, color, fabric, silhouette, details, styling, DNA, rhythm) → line-up, lookbook and line sheet, with a commercial critical path. References: `concept-and-boards.md`, `range-planning.md`.
+- Each skill ships with 3 evals. New skills = repo y release; total skills: 55.
 
 ### 2.11.1 (2026-09-04)
 

@@ -1,0 +1,42 @@
+{
+  "skill_name": "tech-pack",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a tech pack for a women's oversized cotton poplin button-down shirt, sizes XS-XL.",
+      "expected_output": "Asks or states assumptions for base size, units, stage, and fabric, then produces the tech pack sections: cover, flats description with callouts, BOM including thread, buttons in ligne, labels and packaging, colorways with physical color standards, a POM spec for the base size with codes, how-to-measure, tolerances and half/full notation, graded spec with grade rules, construction details with seam and stitch types and SPI, label compliance notes, and a fit comments/revision log.",
+      "assertions": [
+        "Includes a BOM with all components including thread, buttons, labels, and packaging",
+        "Includes POMs with codes, how-to-measure descriptions, and tolerances",
+        "States whether widths are half or full measurements and states units",
+        "Includes graded spec or grade rules across XS-XL",
+        "Includes construction details with seam/stitch type and SPI",
+        "Mentions care/content label requirements for the destination market"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My first sample came back and the chest is 3 cm too tight and the sleeves are 2 cm long. How do I write fit comments to the factory?",
+      "expected_output": "Produces a fit comment table with POM code, spec, measured, difference, pass/fail vs tolerance, and a clear numbered correction (e.g., increase chest half width and grade through all sizes, shorten sleeve), clarifies whether the 3 cm is half or full circumference, requests photos on the fit model, updates the version and date, and specifies the next sample request and deadline.",
+      "assertions": [
+        "Uses a measured vs spec vs difference format",
+        "Clarifies half vs full measurement for the chest",
+        "Gives specific numbered corrections including grading",
+        "Updates version/date and requests the next sample"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "What's the difference between a tech pack and a line sheet?",
+      "expected_output": "Explains that the tech pack is the production instruction document for factories (flats, BOM, specs, grading, construction) while the line sheet is a wholesale selling document for buyers (images, style numbers, colorways, sizes, wholesale price, MSRP, delivery, MOQ). Points to fashion-collection for line sheets.",
+      "assertions": [
+        "Correctly identifies the tech pack audience as factory/production",
+        "Correctly identifies the line sheet audience as buyers/wholesale",
+        "Lists key contents of each"
+      ],
+      "files": []
+    }
+  ]
+}
