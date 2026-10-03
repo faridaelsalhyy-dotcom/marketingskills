@@ -1,0 +1,1 @@
+order_id,order_name,created_at,customer_id,is_new_customer,sku,variant_id,qty,gross_sales,discounts,returns,net_sales,shipping_charged,payment_gateway,financial_status,fulfillment_status,utm_source,utm_medium,utm_campaign,utm_content,landing_site

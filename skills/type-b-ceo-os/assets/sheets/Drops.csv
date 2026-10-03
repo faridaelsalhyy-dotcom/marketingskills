@@ -1,0 +1,2 @@
+drop_id,product,status,qty,unit_cost,selling_price,revenue,margin_pct,sold,remaining,cac,contribution_profit,next_action
+D1,EXAMPLE Set,Costing,50,,,,,,,,,Get final factory quote

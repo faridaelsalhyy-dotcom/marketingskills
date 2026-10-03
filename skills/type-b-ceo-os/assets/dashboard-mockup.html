@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TYPE B CEO Command Center (mockup)</title>
+<style>
+:root{--bg:#f6f1ea;--ink:#1a1a1a;--card:#fff;--line:#e4dccf;--pink:#e5388b;--ok:#2a8a5a;--warn:#c27a00;--bad:#c62828;--mute:#6b6459}
+@media (prefers-color-scheme:dark){:root{--bg:#141212;--ink:#f3eee6;--card:#1e1b1b;--line:#33302c;--mute:#a79f93}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,sans-serif;padding:16px}
+h1{font-size:22px;margin:0 0 2px}h1 span{color:var(--pink)}.sub{color:var(--mute);margin-bottom:16px;font-size:13px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px}
+.card h2{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:0 0 8px}
+.kpi{display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px dashed var(--line)}.kpi:last-child{border:0}
+.kpi b{font-variant-numeric:tabular-nums}.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:1px 8px;border-radius:99px;margin-right:6px;background:var(--pink);color:#fff}
+.act{margin:6px 0}.note{font-size:12px;color:var(--mute);margin-top:16px}
+</style></head><body>
+<h1>TYPE B <span>·</span> CEO Command Center</h1>
+<div class="sub">Mockup with placeholder numbers. Data through: &lt;last sync&gt;</div>
+<div class="grid">
+<div class="card"><h2>Cash</h2>
+<div class="kpi"><span>Available</span><b>000,000 EGP</b></div><div class="kpi"><span>Committed 30d</span><b>000,000</b></div>
+<div class="kpi"><span>Runway</span><b>0.0 mo</b></div><div class="kpi"><span>Next payment</span><b>D1 balance · &lt;date&gt;</b></div></div>
+<div class="card"><h2>Sales</h2>
+<div class="kpi"><span>Today / 7d / 30d</span><b>0 / 0 / 0</b></div><div class="kpi"><span>Orders · AOV</span><b>0 · 000</b></div>
+<div class="kpi"><span>Conversion rate</span><b>0.0%</b></div><div class="kpi"><span>New vs repeat</span><b>00 / 00</b></div></div>
+<div class="card"><h2>Marketing</h2>
+<div class="kpi"><span>CAC vs allowable</span><b class="ok">000 / 000</b></div><div class="kpi"><span>CPC · CTR · CPM</span><b>0 · 0% · 0</b></div>
+<div class="kpi"><span>Meta ROAS vs breakeven</span><b class="warn">0.0 / 0.0</b></div><div class="kpi"><span>MER</span><b>0.0</b></div></div>
+<div class="card"><h2>Inventory</h2>
+<div class="kpi"><span>Best / slowest SKU</span><b>SET-BLK / TEE-WHT</b></div><div class="kpi"><span>Sell-through</span><b>00%</b></div>
+<div class="kpi"><span>Days of stock</span><b>00</b></div><div class="kpi"><span>Stockout risk</span><b class="bad">Size M · 6d</b></div></div>
+<div class="card"><h2>Production</h2>
+<div class="kpi"><span>Current</span><b>D2 Set · Fitting</b></div><div class="kpi"><span>Lead time actual vs plan</span><b class="warn">00d / 00d</b></div>
+<div class="kpi"><span>Next decision</span><b>Approve final sample</b></div></div>
+<div class="card"><h2>Content</h2>
+<div class="kpi"><span>Produced / scheduled</span><b>00 / 00</b></div><div class="kpi"><span>Top creative</span><b>C-0042</b></div>
+<div class="kpi"><span>Fatigued</span><b class="bad">C-0031</b></div><div class="kpi"><span>Tests running</span><b>Hook A vs B</b></div></div>
+</div>
+<div class="card" style="margin-top:12px"><h2>CEO Actions</h2>
+<div class="act"><span class="tag">DECIDE</span>Reorder Size M? Cash ok, margin ok, MOQ 50.</div>
+<div class="act"><span class="tag">FIX</span>PDP size guide: add-to-cart rate low vs sessions.</div>
+<div class="act"><span class="tag">TEST</span>Confession hook vs product-first hook.</div>
+<div class="act"><span class="tag">WAIT</span>Hold ad set B until 5 purchases over 3 days.</div>
+<div class="act"><span class="tag">INVESTIGATE</span>Meta ROAS up, Shopify new-customer orders flat.</div></div>
+<p class="note">All figures are illustrative placeholders, not benchmarks or real data.</p>
+</body></html>

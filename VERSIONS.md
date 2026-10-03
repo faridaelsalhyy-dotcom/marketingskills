@@ -53,9 +53,14 @@ Current versions of all skills. Agents can compare against local versions to che
 | site-architecture | 2.0.0 | 2026-05-05 |
 | sms | 1.0.0 | 2026-05-21 |
 | social | 2.2.0 | 2026-07-09 |
+| type-b-ceo-os | 1.0.0 | 2026-10-03 |
 | video | 2.1.0 | 2026-07-14 |
 
 ## Recent Changes
+
+### 2.12.0 (2026-10-03)
+
+- Added the **`type-b-ceo-os`** skill (1.0.0) — a CEO operating system for a fashion/lifestyle DTC brand (built for TYPE B, adaptable). Connects brand, product, production, pricing, content, campaigns, pro ads, media buying, inventory, cash and drops into one decision loop, with CEO/CFO/media-buyer/creative lenses, an allowable-CAC gate, and a modular Master Sheet. References: operating-model, sheets-schema (+ CSV templates), content-system (full content descriptions), campaign-and-pro-ads (briefs and ad descriptions), media-buying-plan, shopify-meta-integration (phased read→write design, CAPI, reconciliation, change requests), dashboard-mockups (+ HTML mockup), brand-world, skills-and-resources. New skill = repo y release; total skills: 51.
 
 ### 2.11.1 (2026-09-04)
 

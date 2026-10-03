@@ -1,0 +1,2 @@
+sku,name,drop_id,category,color,supplier_id,fabric,sample_status,production_status,moq,qty,factory_cost,fabric_cost,packaging_cost,freight_per_unit,customs_duties_per_unit,other_direct_per_unit,price,discount_pct,launch_date
+TB-D1-SET-BLK,EXAMPLE Set,D1,Set,Black,SUP-01,TBD,Final sample,Costing,50,50,0,0,0,0,0,0,0,0,
